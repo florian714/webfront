@@ -5,10 +5,10 @@ import {Card, CardHeader, CardDescription, CardTitle, CardContent, CardFooter} f
 import Link from "next/link";
 
 export default async function Page() {
-    await new Promise((r)=> setTimeout(r, 1000));
+    await new Promise((r)=> setTimeout(r, 500));
     return (
-        <div className="flex flex-col gap-4">
-        <Card className="flex"> 
+        <div className="center-container">
+        <Card className="center-item"> 
         <CardHeader>
           <CardTitle>Admin</CardTitle>
         </CardHeader>
